@@ -1,26 +1,15 @@
-# Heart-Disease-Prediction-ML
+# Heart Disease Prediction using Machine Learning
+This project aims to predict the presence of heart disease in patients using various machine learning algorithms. The dataset used in this project contains information on various attributes of patients such as age, sex, blood pressure, cholesterol levels, and other health indicators. The goal is to use this data to train machine learning models that can accurately predict the presence of heart disease in patients.
 
-The dataset named "Cleveland Heart Disease Dataset" comes from a study conducted in 1988 and originates from the UCI Machine Learning Repository. The dataset was split in two: a training and a testing set. The task is to get the best predictor and guess if a patient has a heart disease.
+## Dataset
+The dataset used in this project can be found in the data directory of this repository. It contains information on various attributes of patients and whether or not they have heart disease. The dataset is provided by the UCI Machine Learning Repository and can also be downloaded from Kaggle.
 
-### Features
-The dataset is provided in the same format we have gotten it. Often the data needs to be cleaned and formatted, this step has already taken care of by the providers of the dataset. No column names appear in the original dataset, so you will need to add them on your own.
+## Running the Notebook
+To run the project, navigate to the root directory of this project and open the Jupyter notebook Heart_Disease_Prediction_ML.ipynb. The notebook is organized into several sections, each of which explores a different aspect of the heart disease data. The main sections are:
+- Data exploration: This section explores the dataset and identifies trends and patterns in the heart disease data.
+- Data cleaning: This section cleans the data and prepares it for analysis by handling missing values, outliers, and other issues.
+- Machine learning: This section trains machine learning models using various algorithms and evaluates their performance on the heart disease data.
 
-There are 14 columns:
 
--age. The age of the patient.
--sex. The gender of the patient. (1 = male, 0 = female).
--cp. Type of chest pain. (0 = typical angina, 1 = atypical angina, 2 = non — anginal pain, 3 = asymptotic).
--trestbps. Resting blood pressure in mmHg.
--chol. Serum Cholestero in mg/dl.
--fbs. Fasting Blood Sugar. (1 = fasting blood sugar is more than 120mg/dl, 0 = otherwise).
--restecg. Resting ElectroCardioGraphic results (0 = normal, 1 = ST-T wave abnormality, 2 = left ventricular hyperthrophy).
--thalach. Max heart rate achieved.
--exang. Exercise induced angina (1 = yes, 0 = no).
--oldpeak. ST depression induced by exercise relative to rest.
--slope. Peak exercise ST segment (0 = upsloping, 1 = flat, 2 = downsloping).
--ca. Number of major vessels (0–3) colored by flourosopy.
--thal. Thalassemia (1 = normal, 2 = fixed defect, 3 = reversible defect).
--target. Diagnosis of heart disease (0 = absence, 1 = present).
-
-### What to predict?
-The last attribute target is the one we are trying to predict. You are supposed to provide a probability between 0 and 1 describing how confident your model is in predicting whether or not a patient has a heart disease.
+Conclusion
+This project demonstrates the use of machine learning techniques to predict the presence of heart disease in patients. By using various algorithms and evaluating their performance on the heart disease data, this project provides insights into the effectiveness of different machine learning models for this task. The results of this project can be used to develop better models for predicting heart disease in patients, which can lead to better diagnosis and treatment of the disease.
